@@ -1,0 +1,112 @@
+CMPT220L Lab 1 -- Algorithms
+
+NAME: Michelle Macina
+PARTNER'S NAME: Zachary Outman
+
+----------------------------------------------------
+Executing Algorithms
+----------------------------------------------------
+
+1. Which steps perform input?
+	step 4 
+
+2. Which steps perform output?
+	step 9 
+
+3. Which steps modify the value of a variable?
+	step 10 
+
+4. Which steps involve a mathematical operation?
+	steps 6,7,10
+
+5. Which steps perform iteration? 
+	step 10 
+
+6. This algorithm contains a "bug": a logical error that results in
+incorrect output.  Where is the problem?  How can it be fixed?
+	The problem is in 7 because the height will always be one away and not equal. 
+
+
+----------------------------------------------------
+3 Creating Algorithms
+----------------------------------------------------
+
+Writing Simple Algorithms
+____________________________________________________
+
+1. Write your algorithm
+	1. Create a variable named "height"
+	2. Create a variable named "row" 
+	3. Create a height of 3 
+`	4. Create a row that is 2 
+
+2. What was incorrect or imprecise about your algorithm? 
+	I should've combined steps 1 and 3 and 2 and 4 to make the algorithm more efficient. 
+
+Writing Algorithms that Require Input
+____________________________________________________
+
+1. Write your algorithm
+	1. Create a variable named "height" and designate this on a horizontal axis 
+	2. Create a variable named "row" and designate this on a vertical axis 
+	3. Ask your partner how tall they would like the generic rectangle (either 4 or 5)
+	4. Graph this response on the axis for the variable named height
+	5. Ask your partner how wide they would like the generic rectangle ( either 2 or 3)
+	6. Graph this response on the axis for the variable named row 
+	7. Fill in the space of the rows until they match the height
+Starting over 
+	1. Place your writing device on the center of the paper.
+	2. Choose a number either 4 or 5 label this height 
+	3. Draw a straight line that is equal in inches to the number you've chosen, this is height. 
+	4. Turn right
+	5. Choose a number that is either 2 or 3, this is width. 
+	6. Draw a straight line that is equal in inches to the number you've chosen, this is width.  
+	7. Turn Right 
+	8. Repeat steps 3-6
+	
+
+2. What was incorrect or imprecise about your algorithm? 
+	I did not specify that it should be filled in on a graph. (Will go back and edit). Not going to do it as a graph, starting over.
+
+Writing Algorithms that Require Calculations
+____________________________________________________
+
+1. Write your algorithm
+	1. Create a variable named "height" and designate this on a horizontal axis 
+	2. Create a variable named "row" and designate this on a vertical axis 
+	3. Ask your partner how tall they would like the generic right triangle (this should be an even number between 2 and 6) 
+	4. Graph this response in the axis for the variable named height 
+	5. Take the height of your generic right triangle and half the number
+	6. Graph this number in the axis named row
+Starting over 
+	1. Place your writing device on the center of the paper.
+	2. Choose a number between 2 and 4, this is your length 
+	3.create a straight line that is equal in inches to the number chosen.
+	4.turn your writing device 45 degrees
+	5. Draw a straight line equal to the length you've choosen.
+	6. Repeat steps 4 and 5
+
+
+2. What was incorrect or imprecise about your algorithm? 
+	The triangle was not an official right triangle
+
+Writing  a more Complicated Algorithm
+____________________________________________________
+
+1. Write your algorithm 
+	1. Choose a number between 2 and 5
+	2. Place your pen/pencil in the center of the page.
+	3. Create a line going forward that is equal in inches to the number that was chosen
+	4. Follow around the center of where you started your line going clockwise from the end of the line keeping a radius that is equal to the length of your line for 360 degrees. 
+	5. Take the same number choosen and draw a forward line that is equal in inches.
+	6. Turn to the right 
+	7. Continue step 5 four times 
+Starting Over 
+	1. Choose a number between 1 and 5 
+	2. Input this number into the following equations as "S".
+	3. P1=3S
+	4. P2=4S
+	5. P3=2πS
+	6. Add together P1,P2,and P3
+	
+
