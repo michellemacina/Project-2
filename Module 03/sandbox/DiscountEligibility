@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class DiscountEligibility {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your age: ");
+        int age = input.nextInt();
+
+        System.out.print("Are you a student? (true/false): ");
+        boolean isStudent = input.nextBoolean();
+        boolean cond = false;
+        // Set the value of the cond variable based on the right condition.
+
+        if (cond) {age<18 ||isStudent;
+            System.out.println("You are eligible for a student discount!");
+        } else {
+            System.out.println("You are not eligible for a student discount.");
+        }
+    }
+}

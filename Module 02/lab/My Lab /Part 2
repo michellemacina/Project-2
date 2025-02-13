@@ -1,10 +1,14 @@
 import java.util.Scanner;
 
-public class Part1 {
+public class Part2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Part 1: Implicit and Explicit Type Conversion
+        // Part 2: Integer vs Floating-Point Division
+        Int num1=7;
+        Int num2=2;
+        Intdivision result= 1/2;
+
 
         input.close();
     }
