@@ -5,9 +5,9 @@ public class Part2 {
         Scanner input = new Scanner(System.in);
 
         // Part 2: Integer vs Floating-Point Division
-        Int num1=7;
-        Int num2=2;
-        Intdivision result= 1/2;
+        int num1=7;
+        int num2=2;
+        int result= 1/2;
 
 
         input.close();
