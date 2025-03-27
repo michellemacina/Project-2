@@ -34,6 +34,7 @@ public class Part3 {
         return password;
 
     }
+    
     static char randomCharacter() {
         char ch;
         while (!Character.isLetterOrDigit(ch=(char)(Math.random()* 122)));
