@@ -1,1 +1,12 @@
+Unit Converter 
+Problem: To be able to convert units of measurements (Distance, Weight, Temperature) between metric and imperial units. 
 
+Psudocode:
+Start
+Prompt user to choose what unit they are using (Temperature, Weight, Distance)
+User Selects 
+Promt the user to select which conversion they are looking to complete( Farenheight/Celcius, Kilograms/Pounds, Miles/Kilometers)
+Ask user to input the value 
+Preform the converion 
+Display the result 
+Prompts the user the begining question of if they wish to convert a unit of measurement or to quit
