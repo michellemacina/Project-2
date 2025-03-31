@@ -35,7 +35,7 @@ public class Part1 {
     // formulas
     public static double fahrenheitToCelsius(double fahreneit) {
        
-        double celsius = (5.0 / 9) * fahreneit - 32;
+        double celsius = (5.0 / 9) * (fahreneit - 32);
         return celsius;
 
     }

@@ -11,8 +11,8 @@ public class Part1 {
         System.out.println("double value:");
 
         //Part 2:Explicit Type Conversion (Narrowing)
-        double doublevalue=19.99;
-        int intvalue= (int) doublevalue;
+        doublevalue=19.99;
+        intvalue= (int) doublevalue;
         System.out.println(doublevalue);
         System.out.println(intvalue);
 
