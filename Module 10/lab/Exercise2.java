@@ -19,7 +19,7 @@ public class Exercise2 {
 
     //append the text to the file 
     try(FileWriter writer = new FileWriter(filename, true)){
-        writer.write(text);
+        writer.write(text + "\n");
         System.out.println("Text Appended to File");
 
         //IOException 
