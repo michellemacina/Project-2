@@ -1,0 +1,3 @@
+The biggest problem I faced when writing recursive is trying to picture the problem in my head to find the base case and then manipulate that into a recursive formula.
+To avoid infinite recursive you need to set condtions, such that after it completes a certain number of times it can exit and stop calling the method that calls to method over and over.
+I would prefer iteration over recursion anytime, because recursion is hard. 
