@@ -1,5 +1,3 @@
-package lab;
-
 public class WordSearch {
 
     // method
@@ -8,15 +6,10 @@ public class WordSearch {
         int cols = board[0].length;
 
         // loop through the grid
-        for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
-                if (exist(board, word, row, cols, 0)) {
-                    return true;
-                }
-
-            }
-        }
-
+        for (int row = 0; row < rows; row++)
+            for (int col = 0; col < cols; col++)
+                if (exist(board, word, row, col, 0))
+                    return true; // found
         return false;
 
     }
@@ -33,10 +26,10 @@ public class WordSearch {
             return false;
         }
         // explore all directions
-        boolean directions = exist(board, word, row - 1, cols, index + 1);
-        exist(board, word, row + 1, cols, index + 1);
-        exist(board, word, row, cols - 1, index + 1);
-        exist(board, word, row, cols + 1, index + 1);
+        boolean directions = exist(board, word, row - 1, cols, index + 1) ||
+                exist(board, word, row + 1, cols, index + 1) ||
+                exist(board, word, row, cols - 1, index + 1) ||
+                exist(board, word, row, cols + 1, index + 1);
 
         return directions;
 
