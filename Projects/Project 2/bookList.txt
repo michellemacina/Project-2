@@ -1,0 +1,3 @@
+FictionBook | Anna Karenina | Leo Tolstoy | 1878 | 234864
+Textbook | Java: A beginners guide | Java | 2002 | 74560
+Book | The Outsiders | S.E. Hinton | 1967 | 97800
